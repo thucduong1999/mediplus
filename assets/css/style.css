@@ -1,0 +1,148 @@
+/* Reset HTML */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* font family */
+@font-face {
+    font-family: Poppins;
+    src: url(assets/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+/* Common */
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* Web */
+
+#main {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header {
+
+}
+
+/* Header Top */
+#header .header-top {
+    height: 72px;
+    background-color: #222;
+}
+
+#header .header-bot {
+    height: 50px;
+    background-color: rgb(12, 168, 201);
+}
+
+.header-top .header-info {
+    display: flex;
+}
+
+.header-top .location-info {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 22px;
+}
+
+.header-info .locate-icon {
+    color: rgb(12, 168, 201);
+    border: 1px solid #0ca8c9;
+    height: 16px;
+    padding: 7px;
+}
+
+.header-top .text-addr {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: -2px;
+    letter-spacing: 0.15px;
+}
+
+.header-top .poppinsmd-font {
+    font-family: Poppins;
+    color: #b0b0b0;
+}
+
+.header-top .poppinsrgl-font {
+    font-family: Poppins;
+    color: #f0f0f0;
+}
+
+.header-top .flex-end{
+    align-self: self-start;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 28px;
+}
+
+.header-top .location-region {
+    display: flex;
+}
+
+.header-top .usa-img {
+    width: 16px;
+    height: 13px;
+}
+
+.header-top .language {
+    font-size: 12px;
+    font-family: "Poppins";
+    color: rgb(186, 186, 186);
+    margin-left: 10px;
+    margin-right: 32px;
+    letter-spacing: 0.4px;
+}
+
+.header-top .angle-down {
+    color: #bababa;
+    font-size: 9px;
+}
+
+/* Header mid */
+#header .header-mid {
+    height: 99px;
+}
+
+.header-mid .header-category {
+    display: flex;
+}
+
+.header-mid .header-logo {
+    margin-top: 26px;
+}
+
+.header-mid .category {
+    align-self: self-start;
+    margin-left: auto;
+    margin-right: 4px;
+}
+
+.header-mid .cate-icon {
+    font-size: 30px;
+    
+}
+
+.header-mid .cate-icon a{
+    text-decoration: none;
+    color: rgb(12, 168, 201);
+}
+
+.header-mid .setting-icon {
+}
